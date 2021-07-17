@@ -1,0 +1,10 @@
+GET http://localhost:4000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ29nbyIsImlhdCI6MTYyNjUwOTQyOX0.mGiTO5eR2qzAwrWc-yllaLQzTbfavOspsQvhrqHuGNY
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json 
+
+{
+    "username":"gogo"
+}
